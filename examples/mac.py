@@ -18,7 +18,7 @@ if __name__ == "__main__":
         "short_window": 500, 
         "long_window": 2000
     }
-   
+
     # Create and execute the backtest
     backtest = Backtest(
         pairs, HistoricCSVPriceHandler, 

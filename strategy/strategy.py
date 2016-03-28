@@ -8,7 +8,7 @@ class TestStrategy(object):
     A testing strategy that alternates between buying and selling
     a currency pair on every 5th tick. This has the effect of
     continuously "crossing the spread" and so will be loss-making
-    strategy. 
+    strategy.
 
     It is used to test that the backtester/live trading system is
     behaving as expected.

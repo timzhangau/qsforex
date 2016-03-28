@@ -41,7 +41,7 @@ class Backtest(object):
 
     def _run_backtest(self):
         """
-        Carries out an infinite while loop that polls the 
+        Carries out an infinite while loop that polls the
         events queue and directs each event to either the
         strategy component of the execution handler. The
         loop will then pause for "heartbeat" seconds and
